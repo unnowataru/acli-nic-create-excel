@@ -6,6 +6,14 @@ Excelファイルです。ダウンロードしてご利用ください。
 
 Nutanix AHV上におけるCitrix MCS/PVS環境でNICを追加するためのACLIコマンド文を自動生成します。
 
+## 生成例 - Generated ACLI Sample
+vm.nic_create unnow-CitrixPVS01 network=0
+
+vm.nic_create unnow-CitrixPVS02 network=0
+
+vm.nic_create unnow-CitrixPVS03 network=0
+
+
 ## どう使うんだ - How to use this
 Excel内の黄色で網掛けされたセルに各環境ごとの設定値を入力してください。
 
